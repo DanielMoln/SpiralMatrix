@@ -1,7 +1,6 @@
 # depslib dependency file v1.0
-1704141560 source:d:\elte\imperativ_programozas_gyakorlat\projects\spiralmatrix\main.c
+1704145415 source:d:\elte\imperativ_programozas_gyakorlat\projects\spiralmatrix\main.c
 	<stdio.h>
-	<stdlib.h>
 	<stdbool.h>
 	<math.h>
 	<stdlib.h>

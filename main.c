@@ -44,6 +44,8 @@ int handleChoice(char choice)
             system("cls"); //clear screen
             puts("\n");
             puts("This program creates a spiral matrix.");
+            puts("N*N Dynamic allocated matrix generations.");
+            puts("Author @MDSolutions");
             puts("\n");
             return 1;
         case 'b':
@@ -57,7 +59,7 @@ int handleChoice(char choice)
             printf("Dimension: ");
             scanf("%d", &dimension);
 
-            printf("Starting direction: ");
+            printf("Starting direction: (r (implemented)/l/t/b)");
             scanf(" %c", &direction);
 
             printf("cw (0)/ccw (1): ");
