@@ -47,6 +47,9 @@ int handleChoice(char choice)
             puts("N*N Dynamic allocated matrix generations.");
             puts("Author @MDSolutions");
             puts("\n");
+            printf("Quit? Press any number...\n");
+            int a;
+            scanf("%d", &a);
             return 1;
         case 'b':
             system("cls"); //clear screen
@@ -302,7 +305,7 @@ void saveCurrentMatrix()
     }
     else
     {
-        printf("Something went wrong during saving the matrix.");
+        printf("Something went wrong during saving the matrix. (Maybe this file already exists)");
     }
 }
 
